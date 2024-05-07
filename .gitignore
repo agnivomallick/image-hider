@@ -1,0 +1,9 @@
+# don't want the output dir here
+
+output/
+
+# a tool used to create the version file. not required.
+versioning.py
+
+__pycache__/
+.idea/

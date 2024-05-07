@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>727</width>
+    <height>475</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string notr="true">Image Hider</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>logo.ico</normaloff>logo.ico</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #ccc;
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="appTitle_container" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-21</x>
+      <y>0</y>
+      <width>751</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: black
+</string>
+    </property>
+    <widget class="QLabel" name="appTitle">
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>30</y>
+       <width>162</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">color: teal;
+letter-spacing: 5px;
+font-size: 20px;
+</string>
+     </property>
+     <property name="text">
+      <string>Image Hider</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="display_image" native="true">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>90</y>
+      <width>231</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="secret_text">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>90</y>
+      <width>231</width>
+      <height>181</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="import_image">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>313</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: royalblue;
+color: yellow;
+border-radius: 15px;
+</string>
+    </property>
+    <property name="text">
+     <string>Import Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="save_image">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>313</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: royalblue;
+color: yellow;
+border-radius: 15px;
+</string>
+    </property>
+    <property name="text">
+     <string>Save Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="reveal_secret">
+    <property name="geometry">
+     <rect>
+      <x>276</x>
+      <y>383</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+background-color: royalblue;
+color: yellow;
+border-radius: 15px;
+</string>
+    </property>
+    <property name="text">
+     <string>Reveal Secret</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="is_want_enc">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>320</y>
+      <width>118</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: royalblue;</string>
+    </property>
+    <property name="text">
+     <string>Enable Encryption</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
