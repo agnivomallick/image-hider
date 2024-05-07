@@ -25,6 +25,8 @@ The project requirements are listed in `requirements.txt`
 - Editing the file adhering to the [MIT License](https://github.com/agnivomallick/image-hider/blob/main/LICENSE)
 - Just open the file and run it
 - Make sure no errors. If there is a package error, for example `base64` then you can do `pip install pybase64`
+- You can download the zip file of UPX and extract it to some dir.
+- If you don't want then remove the --upx-dir option from the pyinstaller command.
 - Then stop the app and install pyinstaller `pip install pyinstaller`
 - If you want a more GUI-based one then I suggest you use auto-py-to-exe. So, run `pip install auto-py-to-exe`
 - Now on using command-line pyinstaller use this command:
@@ -38,6 +40,7 @@ Accordingly, replace the <> following the specific instructions.
 - No.3 The icon will be linked to the icon file in the repo or using your own icon if you want
 - No.4 The other files are as follows: link the `ui_imagehider.py` and `logo.ico`. Add in the additional files section
 - No.5 In the Advanced section in Windows-specific options (if you use Windows) link the version file to the yaml file in the repo dir.
+- No.6 If you use UPX then make sure to add it in UPX dir option.
 - Tip: The name in Advanced section specifies the name of the result exe
 - Tip: You can change the output dir in Settings section, Output directory option
 - Then click Convert py to exe
