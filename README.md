@@ -75,3 +75,5 @@ Very easy, with just a function.
 ## Licensing
 This project is licensed under the terms of the [MIT License](https://github.com/agnivomallick/image-hider/blob/main/LICENSE)
 
+## Note on using the software
+Whenever you create a encrypted file containing the hidden text, make sure to save that encrypted file with the same extension as the original file or else the reader cannot read the text so an error will occur saying that no text detected.
